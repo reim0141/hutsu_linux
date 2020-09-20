@@ -1,5 +1,7 @@
 wc
+tmp
 *.o
 a.out
 cat
 cat2
+cat_escape
