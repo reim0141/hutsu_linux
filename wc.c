@@ -36,11 +36,6 @@ int main(int argc, char* argv[]) {
       char str[10] = {};
       //itoa(count, str, 10);
       sprintf(str, "%d", count);
-      for (int i = 0; i < 10; i++) {
-        printf("%d:%d\n",i,str[i]);
-      }
-      printf("\n");
-      printf("%s\n",str);
       write(1, str, sizeof(str));
       char enter[1] = {'\n'};
       write(1, enter, 1);
