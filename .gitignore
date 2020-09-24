@@ -12,3 +12,5 @@ tail
 grep
 grep2
 ls
+mkdir
+rmdir
