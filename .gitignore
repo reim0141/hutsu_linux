@@ -18,3 +18,4 @@ ln
 symlink
 rm
 mv
+stat
